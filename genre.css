@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	font-size: 12px;
+}
+
+header {
+	background-color: #FF9933;
+	height: 200px;
+}
+
+header h1 {
+	background-color: #FFFF00;
+	color: #000000;
+	font-size: 50px;
+	padding: 5px 5px;
+	text-align: center;
+	font-family: 'Impact', sans-serif;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div {
+	border: solid 8px black;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 60px;
+
+}
+.box{
+	display:inline-block;
+}
+.box1 h1{
+	font-size:32px;
+}
+.box2 {
+	height: 200px;
+	background-image:url("https://image.jimcdn.com/app/cms/image/transf/none/path/sba9c83e83cc52be6/image/iaf6f5017cef7e163/version/1535642263/image.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+.box3 {
+	height: 200px;
+	background-image:url("https://cdn.pixabay.com/photo/2019/10/06/15/48/bodybuilder-4530601_960_720.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.box4 {
+	height: 200px;
+	background-image:url("https://t4.ftcdn.net/jpg/03/33/09/55/360_F_333095514_PyBZ5Rzy70aesbQGtzFEWyePsLeVtPw8.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+div a {
+	float: left;
+
+}
+
+footer {
+	background-color: #FF9933;
+	height: 200px;
+}

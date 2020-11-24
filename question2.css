@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	font-size: 12px;
+}
+
+header {
+	background-color: #FF9933;
+	height: 200px;
+}
+
+header h1 {
+	background-color: #FFFF00;
+	color: #000000;
+	font-size: 50px;
+	padding: 5px 5px;
+	text-align: center;
+	font-family: 'Impact', sans-serif;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div {
+	border: solid 8px black;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 60px;
+
+}
+.box{
+	display:inline-block;
+}
+.box1 {
+	height: 200px;
+	background-image:url("https://image.flaticon.com/icons/png/512/30/30544.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.box2 {
+	height: 200px;
+	background-image:url("https://us.123rf.com/450wm/spotpoint74/spotpoint741703/spotpoint74170300014/72987376-%E3%83%91%E3%83%AF%E3%83%BC%E3%83%AA%E3%83%95%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E9%BB%92%E3%81%84%E3%82%B7%E3%83%AB%E3%82%A8%E3%83%83%E3%83%88%E3%81%A7%E8%8B%A5%E3%81%84%E9%81%B8%E6%89%8B-powerlifter-%E3%82%B9%E3%82%AF%E3%83%AF%E3%83%83%E3%83%88.jpg?ver=6");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+.box3 {
+	height: 200px;
+	background-image:url("https://image.flaticon.com/icons/png/512/30/30447.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.box4 {
+	height: 200px;
+	background-image:url("https://us.123rf.com/450wm/spotpoint74/spotpoint741803/spotpoint74180300042/97388489-%E7%94%B7%E6%80%A7%E3%82%A2%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%88%E3%83%91%E3%83%AF%E3%83%BC%E3%83%AA%E3%83%95%E3%82%BF%E3%83%BC%E3%83%99%E3%83%B3%E3%83%81%E3%83%97%E3%83%AC%E3%82%B9%E9%BB%92%E3%81%AE%E3%82%B7%E3%83%AB%E3%82%A8%E3%83%83%E3%83%88.jpg?ver=6");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+div a {
+	float: left;
+
+}
+
+footer {
+	background-color: #FF9933;
+	height: 200px;
+}
